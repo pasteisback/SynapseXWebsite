@@ -7,8 +7,8 @@ export default function RedirectToYouTube() {
   const handleRedirect = () => {
     setIsClicked(true);
     setTimeout(() => {
-      window.location.href = "https://www.youtube.com"; // download
-    }, 1000);
+      window.location.href = "https://www.youtube.com"; // Redirect to YouTube
+    }, 1000); // Add delay for animation
   };
 
   return (
@@ -16,7 +16,7 @@ export default function RedirectToYouTube() {
       <div className="bg-white p-6 rounded-2xl shadow-lg max-w-sm text-center">
         <h1 className="text-3xl font-bold text-gray-800 mb-4">100% UNC Synapse X Remade</h1>
         <p className="text-gray-600 mb-6">
-          Since Synapse X betrayed us, I remade their executor. Synapse X devs, please don't sue me.
+          since synapse x betrayed us i remade there executor and synapse x devs pls don't fucking sue me
         </p>
         <button
           onClick={handleRedirect}
